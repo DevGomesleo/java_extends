@@ -45,7 +45,7 @@ public class Account {
 	}
 	
 	public String toString() {
-		return String.format("Nº%d, Name: %s, Balance: $%.2f\n",
+		return String.format("Nº%d, Name: %s, Balance: $%.2f",
 				number, holder, balance);
 	}
 	
